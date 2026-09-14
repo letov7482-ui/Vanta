@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "vantacrystal",
+  "version": "${version}",
+  "name": "VANTA Crystal",
+  "description": "Crystal PvP client with adaptive anticheat engine.",
+  "authors": ["VANTA"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.vanta.crystal.CrystalClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
